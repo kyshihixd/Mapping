@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+.Frame1 {
+    display: flex;
+    justify-content: space-between; /* Ensure icons and text are spaced evenly */
+    flex-wrap: wrap; /* Allows items to wrap if the screen gets too small */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 40px;
+    width: 95.75%;
+    background: linear-gradient(90deg, #0A2773 2%, #134AD9 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* For smaller devices, adjust the flex direction to column */
+@media (max-width: 768px) {
+    .Frame1 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+}
+
+.Headers {
+    left: 2.5vw;
+    top: 1.1vw;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.FindWhereToGo {
+    left: 80vw;
+    top: 29px;
+    position: absolute;
+    color: #FBFBFB;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Rectangle1 {
+    width: 200px;
+    height: 24px;
+    left: 87vw;
+    top: 25px;
+    position: absolute;
+    background: #DAD3D3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px black solid;
+}
+
+.Search {
+    height: 20px;
+    width: 8.8vw;
+    position: absolute;
+    background: #DAD3D3;
+    border:  none ;
+}
+
+.Search:focus {
+    outline: none;
+}
