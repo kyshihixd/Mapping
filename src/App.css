@@ -14,6 +14,6 @@
   }
   
   .map {
-    /* Optional: You can add additional styles for the Map */
+      flex-grow: 3;
   }
   
