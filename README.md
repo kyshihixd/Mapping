@@ -1,1 +1,1 @@
-Personel google map api project
+Personal google map api project
